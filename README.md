@@ -40,10 +40,10 @@ Deafult N set to 1823
 		java TCPClient -p (Port Number) -h (Host Name) -u (Username)
 
  Credited borrowed code
-	Used https://stackoverflow.com/questions/10874048/from-milliseconds-to-hour-minutes-seconds-and-milliseconds
+	- Used https://stackoverflow.com/questions/10874048/from-milliseconds-to-hour-minutes-seconds-and-milliseconds
 	To help convert milliseconds into hours, minutes, and seconds.
 
-	I also used this as a basis of my Diffie-Hellman:
+	- I also used this as a basis of my Diffie-Hellman:
 	https://www.geeksforgeeks.org/implementation-diffie-hellman-algorithm/
   
   Current Bugs:
