@@ -16,37 +16,34 @@ Default port for both programs is set to 20600.
 Default G set to 1019
 Deafult N set to 1823
 
- Project description
+Project description
 	This project runs a client and server program and connets the two given a 
 	port name, host name, and username.
 	This version is multi threaded, so the server can accept multiple clients.
 
- How to compile and run the programs
+###How to compile and run the programs
 	
-  To Compile:
-		javac TCPServerMT.java
-		javac TCPClientMT.java
+To Compile:
+	javac TCPServerMT.java
+	javac TCPClientMT.java
 
-  To Run:
-	
-	Basic run with defualt everything:
-		
-		java TCPServerMT
-		java TCPClientMT
+To Run:
+Basic run with defualt everything:	
+	java TCPServerMT
+	java TCPClientMT
 
-	To Run with set variables
-		
-		java TCPServerMT -p (Port Number) -g (Varible used in encryption) -n (Varible used in encryption)
-		java TCPClient -p (Port Number) -h (Host Name) -u (Username)
+To Run with set variables
+	java TCPServerMT -p (Port Number) -g (Varible used in encryption) -n (Varible used in encryption)
+	java TCPClient -p (Port Number) -h (Host Name) -u (Username)
 
- Credited borrowed code
-	- Used https://stackoverflow.com/questions/10874048/from-milliseconds-to-hour-minutes-seconds-and-milliseconds
-	To help convert milliseconds into hours, minutes, and seconds.
+Credited borrowed code
+Used https://stackoverflow.com/questions/10874048/from-milliseconds-to-hour-minutes-seconds-and-milliseconds
+To help convert milliseconds into hours, minutes, and seconds.
 
-	- I also used this as a basis of my Diffie-Hellman:
-	https://www.geeksforgeeks.org/implementation-diffie-hellman-algorithm/
+I also used this as a basis of my Diffie-Hellman:
+https://www.geeksforgeeks.org/implementation-diffie-hellman-algorithm/
   
-  Current Bugs:
-  G & N are not properly computed
-  All clients use the same key
-  Extremely large numbers have trouble processing
+ Current Bugs:
+ G & N are not properly computed
+ All clients use the same key
+ Extremely large numbers have trouble processing
