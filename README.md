@@ -43,5 +43,7 @@ https://www.geeksforgeeks.org/implementation-diffie-hellman-algorithm/
 
 ## Notes & current bugs: To run with set variables on client, not all 3 are required.
 G & N are not properly computed
+
 All clients use the same key
+
 Extremely large numbers have trouble processing
