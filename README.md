@@ -33,11 +33,12 @@ To Run with set variables
 	java TCPClient -p (Port Number) -h (Host Name) -u (Username)
 
 ## Credit to borrowed code
-Used https://stackoverflow.com/questions/10874048/from-milliseconds-to-hour-minutes-seconds-and-milliseconds
+Used to help convert milliseconds into hours, minutes, and seconds:
 
-To help convert milliseconds into hours, minutes, and seconds.
+https://stackoverflow.com/questions/10874048/from-milliseconds-to-hour-minutes-seconds-and-milliseconds
 
-I also used this as a basis of my Diffie-Hellman:
+Basis of my Diffie-Hellman:
+
 https://www.geeksforgeeks.org/implementation-diffie-hellman-algorithm/
 
 ## Notes & current bugs: To run with set variables on client, not all 3 are required.
