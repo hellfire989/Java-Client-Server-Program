@@ -1,4 +1,4 @@
-# Java-Client-Server-Program
+# MultiThreaded Java-Client-Server-Program
 
 Project Description:
 This is a multithreaded client/server program.
