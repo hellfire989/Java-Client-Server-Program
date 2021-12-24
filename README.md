@@ -28,7 +28,8 @@ Deafult N set to 1823
 		javac TCPClientMT.java
 
   To Run:
-		Basic run with defualt everything:
+	
+	Basic run with defualt everything:
 		
 		java TCPServerMT
 		java TCPClientMT
