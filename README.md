@@ -32,7 +32,7 @@ To Run with set variables
 	java TCPServerMT -p (Port Number) -g (Varible used in encryption) -n (Varible used in encryption)
 	java TCPClient -p (Port Number) -h (Host Name) -u (Username)
 
-Credited borrowed code
+## Credit to borrowed code
 Used https://stackoverflow.com/questions/10874048/from-milliseconds-to-hour-minutes-seconds-and-milliseconds
 To help convert milliseconds into hours, minutes, and seconds.
 
