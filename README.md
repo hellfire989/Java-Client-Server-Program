@@ -17,9 +17,9 @@ Default G set to 1019
 Deafult N set to 1823
 
 ## Project description
-	This project runs a client and server program and connets the two given a 
-	port name, host name, and username.
-	This version is multi threaded, so the server can accept multiple clients.
+This project runs a client and server program and connets the two given a 
+port name, host name, and username.
+This version is multi threaded, so the server can accept multiple clients.
 
 ## How to compile and run the programs
 	
